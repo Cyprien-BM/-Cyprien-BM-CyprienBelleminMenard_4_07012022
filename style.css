@@ -303,8 +303,14 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
+    width: auto;
     margin: 0 5px 0 0;
     display: inline;
+}
+
+.logo-2 {
+    height: 100px;
+    width: 100px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -741,6 +747,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-row {
